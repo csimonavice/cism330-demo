@@ -128,8 +128,8 @@ footer {
 
 /* Link Styles */
 a {
-    color: #004080;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 a:hover {
