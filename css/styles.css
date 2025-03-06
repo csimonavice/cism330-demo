@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* CSS Reset */
+body, header, nav, main, footer, ul, li, h1, h2, p, img, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    background-color: #f44336;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #0059b3;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Link Styles */
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00264d;
+}
+
+/* Contact Page Specific */
+#contact {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Additional Page Styles */
+.about, .hobbies, .research, .school_projects {
+    text-align: left;
+    padding: 1.5em;
+}
