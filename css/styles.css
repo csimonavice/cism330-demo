@@ -87,8 +87,7 @@ img {
 }
 
 .contact-form input,
-.contact-form textarea,
-.contact-form button {
+.contact-form textarea {
     display: block;
     width: 100%;
 }
