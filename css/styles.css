@@ -95,6 +95,7 @@ img {
 
 .contact-form button:hover {
     background-color: #0056b3;
+    color: white; /* Ensures the text color remains white */
 }
 
 .contact-form div {
