@@ -87,27 +87,18 @@ img {
 }
 
 .contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
+.contact-form textarea,
 .contact-form button {
-    margin-top: 15px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px;
+    display: block;
     width: 100%;
-    cursor: pointer;
-    border-radius: 4px;
 }
 
 .contact-form button:hover {
     background-color: #0056b3;
+}
+
+.contact-form div {
+    margin-bottom: 15px;
 }
 
 /* Footer Styles */
